@@ -11,7 +11,7 @@ trueNourisher is a static website prototype exploring how an Ayurvedic wellness 
 - Responsive storefront with product collection, category filters, and sorting
 - Original illustrative botanical brand imagery (not photographs of real products or manufacturing)\n- Vedic text references with contextual notes\n- Proposed ingredient-to-batch quality journey, clearly distinguished from current operations
 - Client-side shopping bag with quantity controls and subtotal
-- Demo wellness questionnaire
+- Demo wellness questionnaire and interest-based product finder
 - Sample batch verification interaction
 - Ingredient and evidence section with external references
 - Mobile navigation and motion effects that respect reduced-motion preferences
