@@ -9,7 +9,7 @@ trueNourisher is exploring a calm, simple identity for concentrated botanical ex
 ## Project contents
 
 - Minimal, responsive brand website with an earthy botanical theme
-- Concept product catalogue with no sample prices or checkout claims
+- Five concept products with no sample prices or checkout claims
 - Guided product finder that asks what visitors want to explore and points to matching catalogue concepts
 - A proposed ingredient-to-pack quality process
 - Vedic text references with context, kept separate from modern product evidence
@@ -17,7 +17,7 @@ trueNourisher is exploring a calm, simple identity for concentrated botanical ex
 
 ## Product guide
 
-The on-site guide is a fixed-choice chat that starts with goals such as hair and scalp, mental wellbeing, digestion, or everyday nourishment. It points to related product concepts when a reasonable match exists and says when the catalogue has no matching concept. Stress/sleep and focus/memory replies include links to evidence context. It is not an AI chatbot or medical assessment and does not assess symptoms, diagnose, or recommend treatment.
+The on-site guide is a fixed-choice chat that starts with goals such as hair and scalp, mental wellbeing, digestion, or everyday nourishment. It points to related product concepts when a reasonable match exists and says when the catalogue has no matching concept. Stress/sleep and focus/memory replies include links to evidence context. The hero includes a direct shortcut to open it. It is not an AI chatbot or medical assessment and does not assess symptoms, diagnose, or recommend treatment.
 
 ## Product and evidence status
 
