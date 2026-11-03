@@ -1,20 +1,29 @@
 # trueNourisher
 
-**A concept storefront for Ayurvedic wellness.**
+**An Ayurveda-inspired botanical wellness brand concept.**
 
-trueNourisher is a static website prototype exploring how an Ayurvedic wellness brand could present products, ingredient context, and a calm online shopping experience. The design pairs an earth-toned botanical identity with Vedic source notes, evidence-aware product storytelling, and a clearly labeled proposed quality journey.
+trueNourisher is exploring a calm, simple identity for concentrated botanical extracts. Product names and images in the site are concepts; final formulas, ingredients, extract specifications, testing, prices and availability have not been confirmed.
 
-**Live preview:** [truenourisher.vercel.app](https://truenourisher.vercel.app)
+**Website:** [truenourisher.vercel.app](https://truenourisher.vercel.app)
 
-## What’s included
+## Project contents
 
-- Responsive storefront with product collection, category filters, and sorting
-- Original illustrative botanical brand imagery (not photographs of real products or manufacturing)\n- Vedic text references with contextual notes\n- Proposed ingredient-to-batch quality journey, clearly distinguished from current operations
-- Client-side shopping bag with quantity controls and subtotal
-- Demo wellness questionnaire and interest-based product finder
-- Sample batch verification interaction
-- Ingredient and evidence section with external references
-- Mobile navigation and motion effects that respect reduced-motion preferences
+- Minimal, responsive brand website with an earthy botanical theme
+- Concept product catalogue with no sample prices or checkout claims
+- Guided product finder that asks what visitors want to explore and points to matching catalogue concepts
+- A proposed ingredient-to-pack quality process
+- Vedic text references with context, kept separate from modern product evidence
+- Product information explaining which extract specifications still need confirmation
+
+## Product guide
+
+The on-site guide is a fixed-choice interest finder, not an AI chatbot or medical assessment. It uses visitor selections to link to relevant concept products. It does not assess symptoms, diagnose, or recommend treatment.
+
+## Product and evidence status
+
+The site does not yet provide confirmed botanical plant parts, extract ratios, extraction methods, carriers, serving sizes, laboratory results, finished-product evidence, manufacturing partners, or batch records. These details should be established and reviewed before any product is offered for sale. No formula, health outcome, certification, or “chemical-free” claim is made.
+
+Vedic references are included as historical and cultural reading, not as proof of a modern extract’s safety or effectiveness. Ingredient research may not apply to a particular extract or finished formula.
 
 ## Built with
 
@@ -22,32 +31,14 @@ trueNourisher is a static website prototype exploring how an Ayurvedic wellness 
 - CSS
 - JavaScript
 
-The site is static and uses browser-side interactions. It does not currently connect to a product database, inventory system, payment provider, or customer account service.
+The website is static and does not process orders or collect customer data.
 
 ## Run locally
 
-No build step is required. Clone the repository and open `index.html` in a browser. For a local web server, run:
+Open `index.html` in a browser, or start a local server:
 
 ```bash
 python3 -m http.server 8000
 ```
 
 Then visit [http://localhost:8000](http://localhost:8000).
-
-## Prototype status
-
-This is a website concept, not a live commerce or health service:
-
-- Checkout is a demo; no payment is processed and orders are not submitted.
-- Batch verification uses a sample ID in the page script; it is not connected to a live verification database.
-- Product catalogue details, prices, stock, formulas, and product-specific claims are provisional.
-- Wellness information is for educational purposes and is not medical advice.
-
-Before using the site for real sales, connect trusted product, inventory, verification, and payment services, and publish final product specifications and compliant claims.
-
-## Project files
-
-- `index.html` — page structure and catalogue content
-- `styles.css` — responsive visual design
-- `script.js` — cart, filters, demo assessment, and sample verification interactions
-- `assets/products/` — concept product/display images\n- `assets/brand/` — illustrative botanical brand images
