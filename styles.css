@@ -209,3 +209,51 @@ nav a:hover{color:var(--tn-clay)}
 .guide-product{display:block;width:100%;border-radius:8px}
 .guide-disclaimer{border-top:1px solid #e0d9cb;margin:0;padding:10px 16px 13px;color:#73796f;font:400 8px/1.6 var(--sans)}
 @media(max-width:680px){.guide-launcher{right:14px;bottom:14px;padding:12px 15px}.guide-widget{right:14px;bottom:70px;max-height:calc(100vh - 88px)}}
+
+/* Readability and usability refresh */
+body{font-size:16px;line-height:1.72}
+.topbar{font-size:11px;letter-spacing:1.3px;padding:11px 16px}
+.overline{font-size:12px;letter-spacing:1.7px}
+.hero-text{font-size:18px;line-height:1.75}
+.hero-notes span{font-size:13px}
+.photo-caption span,.photo-caption b{font-size:11px}
+.signature>p,.editorial-copy>p:not(.overline),.section-heading>div:last-child p,.brand-section-heading>p:last-child,.vedic-copy>p:last-child,.science-head>p{font-size:16px;line-height:1.75}
+.mini-list span{font-size:14px}
+.btn,.link-btn{font-size:14px;min-height:46px}
+nav{font-size:14px}
+.category-row button{font-size:14px;min-height:44px;padding:10px 17px}
+.product-info small{font-size:12px}
+.product-info p,.premium-info>p{font-size:16px;line-height:1.65}
+.effect-row span{font-size:12px}
+.catalog-link{font-size:14px;min-height:42px}
+.catalog-intro,.catalog-intro b{font-size:12px;letter-spacing:1px}
+.prototype{font-size:13px;line-height:1.65}
+.process-grid p,.vedic-citations p,.evidence-grid p{font-size:15px;line-height:1.7}
+.process-note,.visual-note,.vedic-note{font-size:13px;line-height:1.7}
+.vedic-citations article>span{font-size:11px}
+.vedic-citations a,.process-note a{font-size:13px}
+.footer-brand p{font-size:14px;line-height:1.65}
+.footer-links{font-size:14px}
+.footer-bottom{font-size:12px;line-height:1.6}
+.guide-bubble{font-size:14px;line-height:1.6}
+.guide-choice,.guide-product{font-size:13px;min-height:42px}
+.guide-disclaimer{font-size:11px;line-height:1.6}
+a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #8c7044;outline-offset:3px}
+@media(max-width:680px){
+ .topbar{font-size:10px;letter-spacing:.9px}
+ .hero-copy{padding:54px 7% 46px}
+ .hero h1{font-size:clamp(44px,10vw,58px);letter-spacing:-1.4px}
+ .hero-text{font-size:17px}
+ .hero-buttons{align-items:flex-start;gap:12px}
+ .hero-buttons>*{width:100%;justify-content:center}
+ .hero-photo,.hero-photo>a,.hero-photo img{min-height:390px}
+ .signature{padding:66px 7%;gap:18px}
+ .signature>p,.editorial-copy>p:not(.overline),.section-heading>div:last-child p,.vedic-copy>p:last-child,.science-head>p{font-size:16px}
+ .brand-process,.vedic-roots{padding-top:72px;padding-bottom:58px}
+ .process-grid p,.vedic-citations p,.evidence-grid p{font-size:15px}
+ .shop{padding:68px 6%}
+ .product-image{height:300px}
+ .product-info p,.premium-info>p{font-size:16px}
+ .footer-bottom{font-size:12px;display:flex;flex-wrap:wrap;gap:8px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
