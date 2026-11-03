@@ -257,3 +257,6 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #8c7
  .footer-bottom{font-size:12px;display:flex;flex-wrap:wrap;gap:8px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+.hero-buttons .link-btn{display:inline-flex;align-items:center;gap:8px}
+#heroGuide{background:transparent;border:0;padding:0;color:var(--deep);font-family:var(--sans);font-weight:700;text-align:left;cursor:pointer}
