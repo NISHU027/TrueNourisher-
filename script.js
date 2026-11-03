@@ -108,6 +108,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     ]);
   }
   function recommend(key){
+    options.replaceChildren();
     bubble('visitor',labels[key]);
     bubble('guide','Based on that interest, these catalogue concepts may be worth exploring:');
     const matches=products.filter(product=>groups[key].includes(product.name));
