@@ -24,5 +24,5 @@ $$('.category-row button').forEach(btn=>btn.addEventListener('click',()=>{$$('.c
  ])}
  function open(){widget.hidden=false;launcher.setAttribute('aria-expanded','true');if(!thread.childElementCount)start()}
  function shut(){widget.hidden=true;launcher.setAttribute('aria-expanded','false');launcher.focus()}
- launcher.addEventListener('click',()=>widget.hidden?open():shut());close?.addEventListener('click',shut);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!widget.hidden)shut()})
+ document.querySelector('#heroGuide')?.addEventListener('click',open);launcher.addEventListener('click',()=>widget.hidden?open():shut());close?.addEventListener('click',shut);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!widget.hidden)shut()})
 })();
