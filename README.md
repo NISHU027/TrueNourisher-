@@ -17,7 +17,7 @@ trueNourisher is exploring a calm, simple identity for concentrated botanical ex
 
 ## Product guide
 
-The on-site guide is a fixed-choice interest finder, not an AI chatbot or medical assessment. It uses visitor selections to link to relevant concept products. It does not assess symptoms, diagnose, or recommend treatment.
+The on-site guide is a fixed-choice chat that starts with goals such as hair and scalp, mental wellbeing, digestion, or everyday nourishment. It points to related product concepts when a reasonable match exists and says when the catalogue has no matching concept. Stress/sleep and focus/memory replies include links to evidence context. It is not an AI chatbot or medical assessment and does not assess symptoms, diagnose, or recommend treatment.
 
 ## Product and evidence status
 
