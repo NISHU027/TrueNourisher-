@@ -2,14 +2,14 @@
 
 **A concept storefront for Ayurvedic wellness.**
 
-trueNourisher is a static website prototype exploring how an Ayurvedic wellness brand could present products, ingredient context, and a calm online shopping experience. The design pairs a warm editorial style with visible evidence notes and clear disclosures.
+trueNourisher is a static website prototype exploring how an Ayurvedic wellness brand could present products, ingredient context, and a calm online shopping experience. The design pairs an earth-toned botanical identity with Vedic source notes, evidence-aware product storytelling, and a clearly labeled proposed quality journey.
 
 **Live preview:** [truenourisher.vercel.app](https://truenourisher.vercel.app)
 
 ## What’s included
 
 - Responsive storefront with product collection, category filters, and sorting
-- Product and brand imagery
+- Original illustrative botanical brand imagery (not photographs of real products or manufacturing)\n- Vedic text references with contextual notes\n- Proposed ingredient-to-batch quality journey, clearly distinguished from current operations
 - Client-side shopping bag with quantity controls and subtotal
 - Demo wellness questionnaire
 - Sample batch verification interaction
@@ -50,4 +50,4 @@ Before using the site for real sales, connect trusted product, inventory, verifi
 - `index.html` — page structure and catalogue content
 - `styles.css` — responsive visual design
 - `script.js` — cart, filters, demo assessment, and sample verification interactions
-- `assets/products/` — brand, display, and product images
+- `assets/products/` — concept product/display images\n- `assets/brand/` — illustrative botanical brand images
